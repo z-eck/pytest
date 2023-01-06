@@ -1,12 +1,3 @@
-from mock.mock import *
-import random
-
-m = random.randint(0,2)
-n = random.randint(0,7)
-x = random.randint(0,2000)
-y = random.randint(0,500)
-z = random.randint(0,2000)
-
 class Campeonato:
     def __init__(self, nome, sobrenome, nick, classe, modo, kills, death, assistance):
         self.nome = nome
@@ -27,6 +18,5 @@ class Campeonato:
 jogador_ze = Campeonato("Ze", "Costa", "Zezao", "Dano", "CTA", 255, 68, 2)
 jogador_luc = Campeonato("Lucas", "Aleixo", "Alexinho", "Tank", "Control", 1, 19, 249)
 jogador_senai = Campeonato("Jose", "Senai", "Senai", "Dano", "Outro", 3, 1, 7)
-#jogador_novo = Campeonato("aaa", "aaa", "aaa", classe[m], modos[n], x, y, z)
 
 #print(jogador_novo.apresentacao())
