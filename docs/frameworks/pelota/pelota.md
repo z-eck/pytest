@@ -1,1 +1,1 @@
-::: libs/pelota.pelota
+::: pelota.pelota
