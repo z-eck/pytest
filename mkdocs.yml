@@ -1,0 +1,12 @@
+site_name: Minhas Documentações
+repo_url: https://bitbucket.org/pernamlabs/gen-ai
+repo_name: GenAI
+edit_uri: src/main/docs/
+
+plugins: 
+  - mkdocstrings:
+      handlers:
+        python:
+          paths: [libs]
+  - search
+  - awesome-pages

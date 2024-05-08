@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "pytest"
+version = "0.1.0"
+description = ""
+authors = ["Erick Souza <erick_escarlate@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-awesome-pages-plugin = "^2.9.2"
+
+
+[tool.poetry.group.lint.dependencies]
+ruff = "^0.4.3"
+
+[tool.ruff]
+exclude = ["campeonato/*", "semana/*", "fixando/*"]
+
+
+
+
+[tool.poetry.group.doc.dependencies]
+mkdocstrings = "^0.25.1"
+mkdocstrings-python = "^1.10.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
