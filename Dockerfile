@@ -10,7 +10,7 @@ COPY ./docs ./docs
 
 COPY ./mkdocs.yml ./
 
-COPY ./docs/exclude.sh ./
+COPY ./exclude.sh ./
 RUN chmod +x exclude.sh && ./exclude.sh
 
 COPY ./libs ./
